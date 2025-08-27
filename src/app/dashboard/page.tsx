@@ -51,9 +51,9 @@ export default function DashboardPage() {
       <main className="container px-4 py-8">
         {/* Hero Section */}
         <div className="mb-12 text-center">
-          <h1 className="mb-4 text-4xl font-bold tracking-tight">
-            KidAI Play Component Library
-          </h1>
+                     <h1 className="mb-4 text-4xl font-bold tracking-tight">
+             Yoof Component Library
+           </h1>
           <p className="text-xl text-muted-foreground">
             Explore the complete shadcn/ui ecosystem for building your AI education platform
           </p>
@@ -192,9 +192,9 @@ export default function DashboardPage() {
                 <Code className="h-6 w-6 text-slate-600" />
                 <CardTitle>Technology Stack</CardTitle>
               </div>
-              <CardDescription>
-                Modern web technologies powering KidAI Play
-              </CardDescription>
+                             <CardDescription>
+                 Modern web technologies powering Yoof
+               </CardDescription>
             </CardHeader>
             <CardContent>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4">

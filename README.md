@@ -1,4 +1,4 @@
-# KidAI Play - Children's AI Education Centre
+# Yoof - Children's AI Education Centre
 
 🚀 **Built with the 5 Day Sprint Framework by Omar Choudhry**
 
@@ -6,7 +6,7 @@ A modern web application designed to teach children aged 6-11 about AI through i
 
 ## 🎯 Project Overview
 
-**KidAI Play** is a comprehensive AI education platform that makes complex AI concepts accessible and engaging for young learners through:
+**Yoof** is a comprehensive AI education platform that makes complex AI concepts accessible and engaging for young learners through:
 
 - **Interactive Learning Modules** - Age-appropriate AI lessons
 - **Learning Through Play** - Gamified educational experiences
@@ -37,7 +37,7 @@ A modern web application designed to teach children aged 6-11 about AI through i
 1. **Clone the repository**
    ```bash
    git clone <your-repo-url>
-   cd kidaai-play
+   cd yoof
    ```
 
 2. **Install dependencies**

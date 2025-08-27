@@ -12,7 +12,7 @@ export default function HomePage() {
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center space-x-2">
             <Brain className="h-8 w-8 text-primary" />
-            <span className="text-xl font-bold">KidAI Play</span>
+                         <span className="text-xl font-bold">Yoof</span>
           </div>
           <nav className="flex items-center space-x-4">
             <Link href="/dashboard">
@@ -33,9 +33,9 @@ export default function HomePage() {
           </Badge>
           <h1 className="mb-6 text-4xl font-bold tracking-tight sm:text-6xl">
             Welcome to{' '}
-            <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              KidAI Play
-            </span>
+                         <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+               Yoof
+             </span>
           </h1>
           <p className="mb-8 text-xl text-muted-foreground">
             A Children&apos;s AI Education Centre, allowing children aged 6-11 to learn AI through 
@@ -58,12 +58,12 @@ export default function HomePage() {
       {/* Features Section */}
       <section className="container px-4 py-16">
         <div className="mx-auto max-w-6xl">
-          <div className="mb-12 text-center">
-            <h2 className="mb-4 text-3xl font-bold">Why KidAI Play?</h2>
-            <p className="text-lg text-muted-foreground">
-              Making AI education accessible and fun for young minds
-            </p>
-          </div>
+                     <div className="mb-12 text-center">
+             <h2 className="mb-4 text-3xl font-bold">Why Yoof?</h2>
+             <p className="text-lg text-muted-foreground">
+               Making AI education accessible and fun for young minds
+             </p>
+           </div>
           
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             <Card>
@@ -155,7 +155,7 @@ export default function HomePage() {
           <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
             <div className="flex items-center space-x-2">
               <Brain className="h-6 w-6 text-primary" />
-              <span className="font-semibold">KidAI Play</span>
+              <span className="font-semibold">Yoof</span>
             </div>
             <p className="text-sm text-muted-foreground">
               Built with the 5 Day Sprint Framework by Omar Choudhry

@@ -5,13 +5,13 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'KidAI Play - Children&apos;s AI Education Centre',
+  title: 'Yoof - Children&apos;s AI Education Centre',
   description: 'A Children&apos;s AI Education Centre, allowing children aged 6-11 to learn AI through the power of play along with art and craft activities.',
   keywords: 'AI education, children, learning, artificial intelligence, kids, interactive learning',
   authors: [{ name: 'Oliver' }],
   creator: 'Oliver',
   openGraph: {
-    title: 'KidAI Play - Children&apos;s AI Education Centre',
+    title: 'Yoof - Children&apos;s AI Education Centre',
     description: 'Learn AI through play and creativity',
     type: 'website',
   },
