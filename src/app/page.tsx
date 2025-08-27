@@ -14,14 +14,19 @@ export default function HomePage() {
             <Brain className="h-8 w-8 text-primary" />
                          <span className="text-xl font-bold">Yoof</span>
           </div>
-          <nav className="flex items-center space-x-4">
-            <Link href="/dashboard">
-              <Button variant="outline" size="sm">
-                View Components
-                <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
-            </Link>
-          </nav>
+                     <nav className="flex items-center space-x-4">
+             <Link href="/login">
+               <Button variant="outline" size="sm">
+                 Sign In
+                 <ArrowRight className="ml-2 h-4 w-4" />
+               </Button>
+             </Link>
+             <Link href="/dashboard">
+               <Button variant="ghost" size="sm">
+                 View Components
+               </Button>
+             </Link>
+           </nav>
         </div>
       </header>
 

@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
+import { ProtectedRoute } from '@/components/protected-route'
 import { 
   Brain, 
   Palette, 
@@ -27,7 +28,8 @@ import {
 
 export default function DashboardPage() {
   return (
-    <div className="min-h-screen bg-background">
+    <ProtectedRoute>
+      <div className="min-h-screen bg-background">
       {/* Header */}
       <header className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-16 items-center justify-between">
@@ -385,8 +387,9 @@ export default function DashboardPage() {
               </div>
             </CardContent>
           </Card>
-        </div>
-      </main>
-    </div>
-  )
-}
+                 </div>
+       </main>
+     </div>
+     </ProtectedRoute>
+   )
+ }
