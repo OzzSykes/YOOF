@@ -38,7 +38,7 @@ export default function HomePage() {
             </span>
           </h1>
           <p className="mb-8 text-xl text-muted-foreground">
-            A Children's AI Education Centre, allowing children aged 6-11 to learn AI through 
+            A Children&apos;s AI Education Centre, allowing children aged 6-11 to learn AI through 
             the power of play along with art and craft activities.
           </p>
           <div className="flex flex-col gap-4 sm:flex-row sm:justify-center">
