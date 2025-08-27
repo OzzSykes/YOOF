@@ -1,0 +1,159 @@
+# 5 Day Sprint Framework - Cursor Rules
+# Created by Omar Choudhry | Learn more at 5daysprint.com
+
+## CRITICAL WORKFLOW HIERARCHY
+- **Cursor Chat**: Planning, prompting, coordination, user interface
+- **Claude Code**: Implementation only, reports back to Cursor Chat
+
+## MANDATORY FEEDBACK REQUIREMENT
+Every Claude Code prompt must end with:
+"After completing all tasks from this prompt, provide a 1-line feedback summary to Cursor Chat about what was accomplished."
+
+## CORE FRAMEWORK PRINCIPLES
+- **Systematic Approach**: Follow structured development with clear task priorities
+- **Security-First**: ALL API keys and secrets stored in Supabase Edge Functions ONLY
+- **shadcn/ui Ecosystem-First**: Use official components out of the box before custom solutions
+- **Environment Parity**: Localhost must match production exactly
+- **Never work in ad-hoc mode**: Always follow systematic, well-coordinated approach
+
+## MANDATORY WEB SEARCH USAGE
+**ALWAYS use web search** when you need current information about:
+- **API Documentation**: Latest endpoints, authentication methods, rate limits, breaking changes
+- **shadcn/ui Components**: Current component APIs, installation commands, new releases
+- **Library Versions**: Compatibility matrices, latest stable releases, migration guides
+- **Framework Updates**: Next.js, TypeScript, Tailwind updates and best practices
+- **Error Resolution**: Recent solutions to build, deployment, or integration issues
+- **Security Practices**: Current security recommendations and vulnerability advisories
+- **Deployment Platforms**: Vercel, Supabase feature updates and configuration changes
+
+## COMPREHENSIVE DEVELOPMENT APPROACH
+You handle all aspects of development systematically:
+
+### **Core Development Areas:**
+- **Project Coordination**: Task prioritization, dependency management, progress tracking
+- **Feature Architecture**: High-level planning, system design, architecture decisions
+- **Implementation**: Core coding, file structure, development workflows
+- **Quality Control**: Code review, testing, security validation, standards compliance
+- **Deployment**: Build processes, deployment, environment management
+- **Design**: shadcn/ui ecosystem mastery, UI components, Tabler icons, responsive design
+- **Research**: Documentation lookup, API verification, current best practices
+- **Security**: API secrets management, security practices, vulnerability prevention
+- **Configuration**: Environment setup, parity management, dependency coordination
+- **Validation**: Testing workflows, deployment verification, quality assurance
+- **SEO**: SEO optimization, meta tags, performance, Core Web Vitals
+
+### **API Integration Expertise:**
+- **Supabase**: Database, auth, storage, Edge Functions
+- **Vercel**: Deployment, serverless functions, environment variables
+- **Dynamic APIs**: Handle new APIs/services as they're introduced
+
+## AUTONOMOUS TASK MANAGEMENT
+- **Use your own initiative** to handle appropriate tasks based on context
+- **Take comprehensive approach** covering all necessary development areas
+- **Coordinate systematically** ensuring all aspects are properly addressed
+- **Report completion status** back to Cursor Chat with detailed summaries
+
+## SECURITY REQUIREMENTS (CRITICAL)
+- **NEVER store API keys in public files** (config.js, JavaScript, etc.)
+- **ALL secrets go in Supabase Edge Functions** with secure environment variables
+- **Verify secure storage** before implementing any API integration
+- **Use environment variables** for non-sensitive configuration only
+
+## ENVIRONMENT PARITY REQUIREMENTS
+- **Localhost-first development**: All changes tested locally before deployment
+- **Identical behavior**: npm run build && npm run start must match Vercel exactly
+- **CSS consistency**: Styling identical across environments
+- **Module resolution**: No differences between dev and production builds
+- **Suggest server testing**: When features need verification, suggest Cursor Chat runs servers
+
+## PROJECT CONTEXT
+**Framework Type**: Direct Vercel Deployment
+**Tech Stack**: Next.js 15, TypeScript, Tailwind CSS, shadcn/ui, Supabase
+**Current Sprint Phase**: [Development/Testing/Deployment]
+
+## AVAILABLE API CREDENTIALS
+**All credentials stored in .env.local** - access via `process.env.VARIABLE_NAME`:
+- **Supabase**: SUPABASE_PROJECT_ID, SUPABASE_URL, SUPABASE_ANON_KEY, SUPABASE_SERVICE_ROLE_KEY
+- **Vercel**: VERCEL_URL, VERCEL_PROJECT_ID
+- **GitHub**: GITHUB_REPO_URL
+- **Firecrawl**: FIRECRAWL_API_KEY
+- **AI Integrations**: Individual keys parsed from COMPLETEDAT=2025-08-27T11:03:06.762Z
+- **Project Context**: USER_FIRST_NAME, PROJECT_NAME, PROJECT_IDEA, etc.
+
+**Never ask Oliver to re-provide these - all available in environment variables.**
+
+## ADDING NEW API INTEGRATIONS
+When Oliver requests new API integration:
+1. **Ask for API key**: "I'll need your [SERVICE] API key"
+2. **Add to .env.local**: `NEW_SERVICE_API_KEY=provided_key`
+3. **Update .gitignore**: Ensure .env.local remains ignored
+4. **Use in code**: `process.env.NEW_SERVICE_API_KEY`
+5. **Test integration**: Verify API connection works
+
+## DEVELOPMENT WORKFLOW
+1. **Prioritize tasks systematically** based on dependencies and user requirements
+2. **Research current information** via web search for implementation
+3. **Take comprehensive approach** covering design, security, testing, performance
+4. **Test on localhost first** before suggesting deployment
+5. **Report completion** with specific summary for Cursor Chat
+6. **Suggest next steps** or additional testing needs
+
+## ERROR HANDLING
+- **Web search recent solutions** for any build or deployment errors
+- **Check environment parity** if localhost/production differences
+- **Apply security best practices** for API-related errors
+- **Report specific error details** and resolution steps to Cursor Chat
+
+## SHADCN/UI ECOSYSTEM REQUIREMENTS
+- **ALWAYS use official shadcn ecosystem** before creating custom components
+- **Reference complete documentation ecosystem**:
+  - **Blocks**: https://ui.shadcn.com/blocks (layout solutions)
+  - **Components**: https://ui.shadcn.com/docs/components (individual components)
+  - **Themes**: https://ui.shadcn.com/themes (color and styling systems)
+  - **Colors**: https://ui.shadcn.com/colors (palette specifications)
+  - **Charts**: https://ui.shadcn.com/charts (data visualization)
+- **Use npx shadcn add [component-name]** exclusively for installations
+- **Demonstrate ecosystem mastery** in dashboard showcase using sidebar-07 bento layout
+
+## MANDATORY COMPONENT SHOWCASE
+- **Create /dashboard page** using sidebar-07 for component showcase
+- **Include bento grid layout** with comprehensive component demonstrations
+- **Reference official documentation** within bento panels
+- **Show development workflow**: Project discussion → project-manager organization → Feature building
+- **Landing page navigation**: Clear prominent link/button to /dashboard page
+
+## DEPLOYMENT WORKFLOW
+1. **Complete all project files** and configuration (no empty folders/placeholders)
+2. **Test locally** with npm run build && npm run start
+3. **Use Cursor's Source Control panel** to commit and push to GitHub
+4. **Create Vercel project** and import from GitHub
+5. **Configure environment variables** in Vercel dashboard
+6. **Deploy and verify** production matches localhost exactly
+
+## QUALITY STANDARDS
+- **All code properly typed** (TypeScript strict mode)
+- **All components accessible** (ARIA labels, keyboard navigation)
+- **All builds successful** (no warnings or errors)
+- **Perfect localhost/Vercel parity**: Identical appearance and functionality across both pages
+- **Professional-grade implementation** showing advanced capabilities
+
+## INTERRUPTION HANDLING
+- If user interrupts with idea/question, **pause current task**
+- **Log current step** systematically as "interrupted at [step description]"
+- **Address user's tangent** fully
+- **Return to logged task** after tangent is complete
+- **Never lose track** of where you were in the process
+
+## SHORTCUT REPLIES SYSTEM
+- **EVERY CURSOR CHAT RESPONSE** must include shortcut options at the bottom
+- **Allow interruptions** and systematically track current task to return later
+- **Handle tangents** gracefully without losing track of main workflow
+
+**📋 STANDARD SHORTCUT REPLIES (include in ALL responses):**
+```
+Shortcut Replies:
+👉 Type "Skip" to do this later (only show if truly skippable)
+📋 Type "Break it Down" for simpler explanation or guided walkthrough
+↳ Type "Continue" to proceed
+💭 Or interrupt anytime to share an idea or ask a question
+```
