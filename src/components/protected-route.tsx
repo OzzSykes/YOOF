@@ -39,7 +39,11 @@ export function ProtectedRoute({ children }: ProtectedRouteProps) {
       <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50 flex items-center justify-center p-4">
         <Card className="w-full max-w-md">
           <CardHeader className="text-center">
-            <Brain className="h-12 w-12 mx-auto mb-4 text-primary" />
+            <img 
+              src="/yoof_1-removebg-preview.png" 
+              alt="Yoof Logo" 
+              className="h-12 w-auto mx-auto mb-4"
+            />
             <CardTitle>Access Required</CardTitle>
             <CardDescription>
               Please sign in to access your Yoof learning dashboard

@@ -11,8 +11,12 @@ export default function HomePage() {
       <header className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center space-x-2">
-            <Brain className="h-8 w-8 text-primary" />
-                         <span className="text-xl font-bold">Yoof</span>
+            <img 
+              src="/yoof_1-removebg-preview.png" 
+              alt="Yoof Logo" 
+              className="h-8 w-auto"
+            />
+            <span className="text-xl font-bold">Yoof</span>
           </div>
                      <nav className="flex items-center space-x-4">
              <Link href="/login">
@@ -159,7 +163,11 @@ export default function HomePage() {
         <div className="container px-4 py-8">
           <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
             <div className="flex items-center space-x-2">
-              <Brain className="h-6 w-6 text-primary" />
+              <img 
+                src="/yoof_1-removebg-preview.png" 
+                alt="Yoof Logo" 
+                className="h-6 w-auto"
+              />
               <span className="font-semibold">Yoof</span>
             </div>
             <p className="text-sm text-muted-foreground">

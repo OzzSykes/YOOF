@@ -11,6 +11,11 @@ export const metadata: Metadata = {
   keywords: 'AI education, children, learning, artificial intelligence, kids, interactive learning',
   authors: [{ name: 'Oliver' }],
   creator: 'Oliver',
+  icons: {
+    icon: '/yoof_1-removebg-preview.png',
+    shortcut: '/yoof_1-removebg-preview.png',
+    apple: '/yoof_1-removebg-preview.png',
+  },
   openGraph: {
     title: 'Yoof - Children&apos;s AI Education Centre',
     description: 'Learn AI through play and creativity',

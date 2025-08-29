@@ -7,6 +7,7 @@ import {
   Brain, 
   Palette, 
   Users, 
+  User,
   Sparkles, 
   ArrowLeft, 
   Play, 
@@ -41,11 +42,23 @@ export default function DashboardPage() {
               </Button>
             </Link>
             <div className="flex items-center space-x-2">
-              <Brain className="h-6 w-6 text-primary" />
+              <img 
+                src="/yoof_1-removebg-preview.png" 
+                alt="Yoof Logo" 
+                className="h-6 w-auto"
+              />
               <span className="text-lg font-semibold">Component Showcase</span>
             </div>
           </div>
-          <Badge variant="secondary">shadcn/ui Ecosystem</Badge>
+          <div className="flex items-center space-x-4">
+            <Link href="/profile">
+              <Button variant="ghost" size="sm">
+                <User className="mr-2 h-4 w-4" />
+                Profile
+              </Button>
+            </Link>
+            <Badge variant="secondary">shadcn/ui Ecosystem</Badge>
+          </div>
         </div>
       </header>
 
@@ -162,6 +175,18 @@ export default function DashboardPage() {
                 <div>• Progress tracking</div>
                 <div>• Parent controls</div>
                 <div>• Achievement system</div>
+                <div className="flex items-center space-x-1">
+                  <Sparkles className="h-3 w-3 text-purple-500" />
+                  <span>Magical avatar transformations</span>
+                </div>
+              </div>
+              <div className="mt-4">
+                <Link href="/magical-avatar-demo">
+                  <Button variant="outline" size="sm" className="w-full">
+                    <Sparkles className="h-4 w-4 mr-2" />
+                    Try Magical Avatar
+                  </Button>
+                </Link>
               </div>
             </CardContent>
           </Card>

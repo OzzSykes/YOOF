@@ -59,7 +59,11 @@ export default function LoginPage() {
         <Card className="shadow-lg">
           <CardHeader className="text-center">
             <div className="flex justify-center mb-4">
-              <Brain className="h-12 w-12 text-primary" />
+              <img 
+                src="/yoof_1-removebg-preview.png" 
+                alt="Yoof Logo" 
+                className="h-12 w-auto"
+              />
             </div>
             <CardTitle className="text-2xl">Welcome to Yoof!</CardTitle>
             <CardDescription>
