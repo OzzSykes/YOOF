@@ -51,15 +51,17 @@ export default function HomePage() {
             the power of play along with art and craft activities.
           </p>
           <div className="flex flex-col gap-4 sm:flex-row sm:justify-center">
-            <Link href="/dashboard">
+            <Link href="/waitlist">
               <Button size="lg" className="group">
-                Explore Components
+                Join Waitlist
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
               </Button>
             </Link>
-            <Button variant="outline" size="lg">
-              Learn More
-            </Button>
+            <Link href="/dashboard">
+              <Button variant="outline" size="lg">
+                Explore Components
+              </Button>
+            </Link>
           </div>
         </div>
       </section>
@@ -143,13 +145,13 @@ export default function HomePage() {
         <div className="mx-auto max-w-4xl text-center">
           <Card className="bg-gradient-to-r from-blue-50 to-purple-50">
             <CardContent className="p-8">
-              <h2 className="mb-4 text-3xl font-bold">Ready to Start Building?</h2>
+              <h2 className="mb-4 text-3xl font-bold">Ready to Join the Revolution?</h2>
               <p className="mb-6 text-lg text-muted-foreground">
-                Explore the complete shadcn/ui component library and start creating your AI education platform.
+                Be among the first to experience Yoof when we launch. Join our waitlist for early access and updates.
               </p>
-              <Link href="/dashboard">
+              <Link href="/waitlist">
                 <Button size="lg" className="group">
-                  View Component Showcase
+                  Join Our Waitlist
                   <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </Button>
               </Link>
